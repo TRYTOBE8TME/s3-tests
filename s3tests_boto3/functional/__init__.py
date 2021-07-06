@@ -514,3 +514,9 @@ def get_token():
 
 def get_realm_name():
     return config.webidentity_realm
+
+def get_iam_access_key():
+    return config.iam_access_key
+
+def get_iam_secret_key():
+    return config.iam_secret_key
